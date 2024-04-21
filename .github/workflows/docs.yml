@@ -15,6 +15,13 @@ jobs:
         run: |
           pip install poetry
           poetry install
+      - name: Update index.rst
+        run: |
+          echo "" >> docs/index.rst
+          echo "Readme Contents" >> docs/index.rst
+          echo "---------------" >> docs/index.rst
+          echo "" >> docs/index.rst
+          cat README.md >> docs/index.rst
       - name: Sphinx build
         run: |
           poetry run sphinx-apidoc -o docs/source dj_gpt

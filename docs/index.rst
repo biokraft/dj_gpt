@@ -1,10 +1,9 @@
-.. dj_gpt documentation master file, created by
-   sphinx-quickstart on Sun Apr 21 21:22:14 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to dj_gpt's documentation!
+Welcome to DJ-GPT's documentation!
 ==================================
+
+DJ-GPT is an open-source Python application designed to integrate natural language processing with music discovery, utilizing Spotify's library and OpenAI's GPT models.
+
+This documentation provides a comprehensive guide to DJ-GPT, including installation instructions, usage examples, and more.
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +11,6 @@ Welcome to dj_gpt's documentation!
    :glob:
 
    source/*
-
 
 Indices and tables
 ==================
