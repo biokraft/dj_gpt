@@ -1,5 +1,9 @@
 # DJ-GPT
 
+<p align="left">
+  <img src="https://i.imgur.com/exyDRdG.png" width="120" height="120">
+</p>
+
 ![Latest Version](https://img.shields.io/badge/version-0.1.0-g)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11-blue?logo=python)
 [![Documentation](https://img.shields.io/badge/documentation-view-blue?logo=read-the-docs)](https://biokraft.github.io/dj_gpt/)
