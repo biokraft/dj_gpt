@@ -2,6 +2,7 @@
 
 ![Latest Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11-blue)
+[![Documentation](https://img.shields.io/badge/documentation-view-blue)](https://biokraft.github.io/dj_gpt/)
 ![Code Style Black](https://img.shields.io/badge/code%20style-black-black)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
