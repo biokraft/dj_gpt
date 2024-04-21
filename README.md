@@ -38,11 +38,13 @@ poetry install
 #### Spotify API Key
 Sign up or log in at Spotify Developer Dashboard.
 Create an app to obtain Client ID and Client Secret.
+
 #### Set environment variables:
 ```bash
 export SPOTIFY_CLIENT_ID='your_client_id'
 export SPOTIFY_CLIENT_SECRET='your_client_secret'
 ```
+
 #### OpenAI API Key
 Obtain an API key by registering at OpenAI.
 Set the API key as an environment variable:
