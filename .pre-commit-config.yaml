@@ -1,0 +1,49 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+        exclude: ^flows/doccano_and_qa/email_provider_domains.txt
+      - id: check-case-conflict
+      - id: check-symlinks
+      - id: check-yaml
+        exclude: ^copilot/.*/overrides/
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+
+-   repo: https://github.com/PyCQA/autoflake
+    rev: v2.1.1
+    hooks:
+      - id: autoflake
+        args:
+          [
+            --remove-all-unused-imports,
+            --remove-unused-variables,
+            --in-place,
+            --exclude=__init__.py,
+          ]
+
+-   repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+    -   id: black
+        args: [--line-length=120, --target-version=py39]
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: [--profile=black,]
+
+-   repo: local
+    hooks:
+      - id: jupyter-nb-clear-output
+        name: jupyter-nb-clear-output
+        files: \.ipynb$
+        stages: [commit]
+        language: system
+        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
