@@ -9,7 +9,7 @@ on:
       - 'docs/**'
 
 jobs:
-  build:
+  build-docs:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,18 +20,20 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
-        run: |
-          pip install poetry
-          poetry install
+      - name: Install Poetry
+        run: pip install poetry
 
-      - name: Build docs
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Build documentation
         run: |
           cd docs
           make html
+        working-directory: ${{ github.workspace }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/_build/html
+          publish_dir: ./docs/build/html
