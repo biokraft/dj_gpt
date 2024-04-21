@@ -24,9 +24,6 @@ jobs:
       - name: Update index.rst
         run: |
           echo "" >> docs/index.rst
-          echo "Readme" >> docs/index.rst
-          echo "---------------" >> docs/index.rst
-          echo "" >> docs/index.rst
           cat README.rst >> docs/index.rst
       - name: Sphinx build
         run: |
