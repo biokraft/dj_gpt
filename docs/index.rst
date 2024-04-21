@@ -8,10 +8,3 @@ This documentation provides a comprehensive guide to DJ-GPT, including installat
    :glob:
 
    source/*
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
