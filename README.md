@@ -28,7 +28,7 @@ Ensure you have:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/biokraft/dj-gpt.git
+git clone https://github.com/biokraft/dj_gpt.git
 cd dj-gpt
 ```
 
