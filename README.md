@@ -5,6 +5,7 @@
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11-blue)
 
 DJ-GPT is an open-source Python application designed to integrate natural language processing with music discovery, utilizing Spotify's library and OpenAI's GPT models.
+You can find the official documentation [here](https://biokraft.github.io/dj_gpt/).
 
 # Installation
 
@@ -19,7 +20,7 @@ Ensure you have:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dj-gpt.git
+git clone https://github.com/biokraft/dj-gpt.git
 cd dj-gpt
 ```
 
