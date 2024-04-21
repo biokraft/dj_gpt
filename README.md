@@ -6,7 +6,7 @@
 ![Code Style Black](https://img.shields.io/badge/code%20style-black-black)
 [![License](https://img.shields.io/badge/License-Apache%202.0-g.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyPI](https://img.shields.io/badge/PyPI-View%20on%20PyPI-blue?logo=pypi)](https://pypi.org/project/dj-gpt/)
-[![GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-lightgrey?logo=github)](https://github.com/biokraft/dj-gpt)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-lightgrey?logo=github)](https://github.com/biokraft/dj_gpt)
 
 DJ-GPT is an open-source Python application designed to integrate natural language processing with music discovery, utilizing Spotify's library and OpenAI's GPT models.
 You can find the official documentation [here](https://biokraft.github.io/dj_gpt/).
