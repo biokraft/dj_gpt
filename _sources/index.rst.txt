@@ -1,0 +1,106 @@
+Welcome to DJ-GPT's documentation!
+==================================
+This documentation provides a comprehensive guide to DJ-GPT, including installation instructions, usage examples, and more.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   :glob:
+
+   source/*
+DJ-GPT
+======
+
+.. raw:: html
+
+   <p align="left">
+
+.. raw:: html
+
+   </p>
+
+|Latest Version| |Python 3.9+| |Documentation| |Code Style Black|
+|License| |PyPI| |GitHub|
+
+DJ-GPT is an open-source Python application designed to integrate
+natural language processing with music discovery, utilizing Spotify’s
+library and OpenAI’s GPT models. You can find the official documentation
+`here <https://biokraft.github.io/dj_gpt/>`__.
+
+Installation
+============
+
+Prerequisites
+-------------
+
+Ensure you have: - Python 3.9 or newer installed. -
+`Poetry <https://python-poetry.org/docs/>`__ installed for dependency
+management. - `Spotify Developer
+Account <https://developer.spotify.com/>`__ to obtain API keys. -
+`OpenAI Account <https://platform.openai.com/>`__ to obtain API keys.
+
+Clone the Repository
+--------------------
+
+.. code:: bash
+
+   git clone https://github.com/biokraft/dj_gpt.git
+   cd dj-gpt
+
+Install dependencies
+--------------------
+
+.. code:: bash
+
+   poetry install
+
+Required API KEYS
+-----------------
+
+Spotify API Key
+~~~~~~~~~~~~~~~
+
+Sign up or log in at Spotify Developer Dashboard. Create an app to
+obtain Client ID and Client Secret.
+
+Set environment variables:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: bash
+
+   export SPOTIFY_CLIENT_ID='your_client_id'
+   export SPOTIFY_CLIENT_SECRET='your_client_secret'
+
+OpenAI API Key
+~~~~~~~~~~~~~~
+
+Obtain an API key by registering at OpenAI. Set the API key as an
+environment variable:
+
+.. code:: bash
+
+   export OPENAI_API_KEY='your_openai_api_key'
+
+Contributing
+------------
+
+Contributions are welcome! Please fork the project and submit pull
+requests with your suggested changes.
+
+License
+-------
+
+This project is licensed under the Apache 2.0 License - see the LICENSE
+file for details.
+
+.. |Latest Version| image:: https://img.shields.io/badge/version-0.1.0-g
+.. |Python 3.9+| image:: https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11-blue?logo=python
+.. |Documentation| image:: https://img.shields.io/badge/documentation-view-blue?logo=read-the-docs
+   :target: https://biokraft.github.io/dj_gpt/
+.. |Code Style Black| image:: https://img.shields.io/badge/code%20style-black-black
+.. |License| image:: https://img.shields.io/badge/License-Apache%202.0-g.svg
+   :target: https://opensource.org/licenses/Apache-2.0
+.. |PyPI| image:: https://img.shields.io/badge/PyPI-View%20on%20PyPI-blue?logo=pypi
+   :target: https://pypi.org/project/dj-gpt/
+.. |GitHub| image:: https://img.shields.io/badge/GitHub-View%20on%20GitHub-lightgrey?logo=github
+   :target: https://github.com/biokraft/dj_gpt
